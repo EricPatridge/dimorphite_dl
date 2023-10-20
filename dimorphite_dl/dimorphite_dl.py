@@ -118,6 +118,7 @@ class DimorphiteDL(object):
 
         output = list(ProtonateEngine(self.args))
         output = [ i.strip('\t') for i in output ]
+        print(output)
 
         return output
 
